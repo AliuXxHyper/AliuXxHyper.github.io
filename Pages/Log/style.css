@@ -1,0 +1,86 @@
+.log-border {
+    position: relative;
+    width: 380px;
+    height: 420px;
+    background-color: #2e2e2e;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.log-border::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 420px;
+    background: linear-gradient(0deg,transparent,#45f3ff,#45f3ff,#45f3ff);
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+}
+
+.log-border::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 420px;
+    background: linear-gradient(0deg,transparent,#45f3ff,#45f3ff,#45f3ff);
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -3s;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.log {
+    position: absolute;
+    inset: 2px;
+    border-radius: 8px;
+    background: #2e2e2e;
+    z-index: 10;
+    padding: 10%;
+}
+
+h1 {
+    color: #45f3ff;
+    text-align: center;
+}
+
+input {
+    background: transparent;
+    border: none;
+    width: 100%;
+    height: 2em;
+    font-size: 1em;
+}
+
+.log label {
+    color: #45f3ff;
+}
+
+.log a {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+}
+
+.button-login {
+    margin-top: 1em;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    background-color: #45f3ff;
+    border-radius: 5px;
+    width: 100%;
+    height: 2em;
+}
