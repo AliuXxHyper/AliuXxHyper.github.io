@@ -3,7 +3,7 @@ class header_duplicate extends HTMLElement{
         this.innerHTML = 
             `<header>
                 <div>
-                    <img src="../Imgs/logo.png" alt="">
+                    <img src="logo.png" alt="">
                     <p>zOpen</p>
                 </div>
                 <nav>
@@ -27,9 +27,9 @@ class footer_duplicate extends HTMLElement {
         </div>
         
         <div>
-            <a href=""><img src="../Imgs/social_networks/Facebook_logo-1048x1048.png" alt=""></a>
-            <a href=""><img src="../Imgs/social_networks/Twitter_logo-1048x1048.png" alt=""></a>
-            <a href=""><img src="../Imgs/social_networks/Instagram_logo-1048x1048.png" alt=""></a>
+            <a href=""><img src="social_networks/Facebook_logo-1048x1048.png" alt=""></a>
+            <a href=""><img src="social_networks/Twitter_logo-1048x1048.png" alt=""></a>
+            <a href=""><img src="social_networks/Instagram_logo-1048x1048.png" alt=""></a>
         </div>
         
         <div>
