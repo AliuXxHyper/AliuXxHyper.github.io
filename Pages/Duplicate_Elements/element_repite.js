@@ -27,9 +27,9 @@ class footer_duplicate extends HTMLElement {
         </div>
         
         <div>
-            <a href=""><img src="social_networks/Facebook_logo-1048x1048.png" alt=""></a>
-            <a href=""><img src="social_networks/Twitter_logo-1048x1048.png" alt=""></a>
-            <a href=""><img src="social_networks/Instagram_logo-1048x1048.png" alt=""></a>
+            <a href="facebook.com"><img src="social_networks/Facebook_logo-1048x1048.png" alt=""></a>
+            <a href="twitter.com"><img src="social_networks/Twitter_logo-1048x1048.png" alt=""></a>
+            <a href="instagram.com"><img src="social_networks/Instagram_logo-1048x1048.png" alt=""></a>
         </div>
         
         <div>
