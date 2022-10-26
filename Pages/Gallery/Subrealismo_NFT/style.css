@@ -1,0 +1,15 @@
+@media (max-width: 861px) {
+    .container_data {
+        flex-direction: column;
+    }
+    .container_data img {
+        width: 60%;
+        display: block;
+        margin: auto;
+        margin-top: 2%;
+    }
+    .container_data div h1 {
+        display: flex;
+        justify-content: center;
+    }
+}
