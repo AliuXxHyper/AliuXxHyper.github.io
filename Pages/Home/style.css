@@ -4,6 +4,11 @@ h1 {
     border-bottom: solid 2px#dadada;
 }
 
+.full_content {
+    display: flex;
+    justify-content: space-around;
+}
+
 .option_responsive {
     display: none;
 }
@@ -15,7 +20,6 @@ h1 {
 .content {
     transition: 1s;
     text-align: left;
-    margin: 0% 0% 0% 5%;
     width: 30em;
     height: auto;
     box-sizing: border-box;
@@ -55,12 +59,18 @@ img {
     display: inline-block;
     width: 40%;
 }
+@media(max-width:967px) {
+    .full_content {
+        flex-direction: column;
+    }
+}
 
 @media (max-width: 532px) {
-    .content {
+    .content, .full_content img {
         margin: 5%;
         width: auto;
     }
+
 }
 
 @media (max-width: 328px) {
